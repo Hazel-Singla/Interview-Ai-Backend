@@ -9,6 +9,7 @@ app.use(cookieParser())
 const allowedOrigins = [
     "http://localhost:5173",
     "https://interview-ai-frontend-rho.vercel.app",
+    "https://interview-ai-3gv5.onrender.com",
     process.env.FRONTEND_URL
 ].filter(Boolean)
 
