@@ -8,6 +8,7 @@ app.use(express.json())
 app.use(cookieParser())
 const allowedOrigins = [
     "http://localhost:5173",
+    "https://interview-ai-frontend-rho.vercel.app",
     process.env.FRONTEND_URL
 ].filter(Boolean)
 
